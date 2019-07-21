@@ -1,0 +1,176 @@
+@font-face {
+	font-family: "Raleway";
+}
+body{
+	background-color: rgba(206, 246, 246, 0.42);
+	font-family: "Raleway";
+	font-size: 16px;
+	box-sizing: inherit;
+	line-height: 1.35;
+	word-spacing: 1px;
+}
+p{
+	margin: 0 0 10px
+}
+a:hover,a:focus,a:link{
+	text-decoration:none;
+	margin:  0;
+	padding: 0;
+	font-weight: 200;
+	line-height: 1.3;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:  #5bc0de !important;
+}
+.dropdown-menu a:hover{
+	font-size: 17px;
+	font-weight:bold;
+	background-color:rgba(206, 246, 246, 0.42);
+}
+a#sitename{
+	font-size:	24px;
+	font-weight:bold;
+	text-align:	center;
+	color:  #5bc0de !important;
+	padding-top:5%;
+	padding-bottom: 5%;
+
+}
+#footer{	
+	position:relative;	
+	bottom:1px;
+	margin-bottom:0 !important;
+	color:	 #5bc0de;
+	background-color:  #222;
+	text-align: 	center ;
+	border-radius:	10px;
+}
+
+
+/* Rules for page content  */
+
+.dropdown-menu > li > a {
+	color: #5bc0de !important;
+	text-align: center;
+
+}
+.site-content{
+	margin-top: 6%;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom:4%;
+	word-wrap: break-word;
+	display: block;
+	background-color: white;	
+	padding-top:10px;
+	padding-left:40px;
+	padding-right: 30px;
+	padding-bottom:60px;
+	border-radius: 15px;
+	box-shadow:  0px 3px 3px rgba(95, 219, 246, 0.88);
+}
+.post-title a:hover{
+	font-weight: bold;
+}
+.post-info span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.post-content{
+	padding-top:7px;
+	margin: 0 0 0px;
+}
+.post-content p{
+	font-size: 17px;
+	font-weight: normal;
+	word-spacing:0.2em;
+}
+.post-content img{
+	margin-left:25%;
+	margin-right:35%;
+}
+
+.btn-read-more{
+	padding-top: 20px;
+	display: inline-block;
+	float: right;
+}
+.btn-read-more>a:hover{
+	background-color: rgba(206, 246, 246, 0.42) !important;
+	display: inline-block;
+	border: 2px solid #44c8cd;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+	border-radius: 10px;
+	font-weight: bold;
+	transition: all 0.15s ease-out 0s
+}
+.pag-prev>a,.pag-next>a{
+	color: white;
+	background-color: #1E73BE !important;
+	border: 1px solid white;
+	display: inline-block;
+	margin-bottom: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+.pag-prev>a:hover,.pag-next>a:hover{
+	border: 2px solid #1E73BE;
+	font-weight: bold;
+	transition: all 0.15s ease-out 0s
+}
+
+/*  Rules for list comments  */
+.comment{
+	margin-left: 13%;
+	margin-right: 12%;
+	margin-bottom: 60px;
+	background-color: white;
+	padding-top:20px;
+	padding-left:40px;
+	padding-right:35px;
+	padding-bottom:20px;
+	word-spacing: 0.1% ;
+	line-height: 1.7;
+	box-shadow:  0px 3px 3px rgba(95, 219, 246, 0.88);
+}
+.comment-author{
+	font-weight: 700;
+	font-variant-caps: all-petite-caps;
+	font-size: 15px;
+	font-style: italic;
+}
+.comment-date{
+	padding-top: 30px;
+	padding-bottom: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+.comment-body{
+	padding-top: 10px;
+	margin-left: 1em ;
+}
+/*  Rules for  comments form */
+#form-comment{
+	padding: 4% 17% 4% 7%;
+	margin-top: 2%;
+	margin-left: 13%;
+	margin-right: 12%;
+	margin-bottom: 6%;
+	width:auto;
+	border-radius: 10px;
+	box-shadow:  5px 5px 5px 5px rgba(95, 219, 246, 0.88);
+}
+#textarea{
+	margin-bottom: 25px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	padding-left: 10px;
+	width:100%;
+        height:100%;
+	overflow: auto;
+}
